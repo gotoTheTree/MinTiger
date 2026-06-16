@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <MCUInfo>
+        <MCUSerials>AT32F421</MCUSerials>
+        <MCUName>AT32F421G8U7</MCUName>
+        <MCUPackage>QFN28</MCUPackage>
+    </MCUInfo>
+    <ADC1>
+        <Mode>
+            <ModeSub name="IN3" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="Channel_OrdinarySequence_1" value="ADC_CHANNEL_3"/>
+            <ParametersSub name="SamplingTime_OrdinarySequence_1" value="ADC_SAMPLETIME_28_5"/>
+        </Parameters>
+    </ADC1>
+    <CMP1>
+        <Mode>
+            <ModeSub name="InputPlus" value="INP1"/>
+            <ModeSub name="InputNeg" value="INM6"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="OutputPol" value="CMP_POL_INVERTING"/>
+        </Parameters>
+    </CMP1>
+    <DEBUG>
+        <Mode>
+            <ModeSub name="SWD" value="TRUE"/>
+        </Mode>
+    </DEBUG>
+    <SYSTEM>
+        <Mode>
+            <ModeSub name="Time_Base" value="SysTick"/>
+        </Mode>
+    </SYSTEM>
+    <TMR1>
+        <Mode>
+            <ModeSub name="Channel1 mode" value="Output_CH1"/>
+            <ModeSub name="Channel2 mode" value="Output_CH2"/>
+            <ModeSub name="Channel3 mode" value="Output_CH3"/>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DividerValue" value="119"/>
+            <ParametersSub name="OCMode_1" value="TMR_OUTPUT_CONTROL_PWM_MODE_A"/>
+            <ParametersSub name="OCMode_2" value="TMR_OUTPUT_CONTROL_PWM_MODE_A"/>
+            <ParametersSub name="OCMode_3" value="TMR_OUTPUT_CONTROL_PWM_MODE_A"/>
+        </Parameters>
+    </TMR1>
+    <TMR3>
+        <Mode>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DividerValue" value="119"/>
+        </Parameters>
+    </TMR3>
+    <TMR6>
+        <Mode>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DividerValue" value="29"/>
+        </Parameters>
+    </TMR6>
+    <TMR14>
+        <Mode>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DividerValue" value="29"/>
+        </Parameters>
+    </TMR14>
+    <TMR15>
+        <Mode>
+            <ModeSub name="Channel1 mode" value="Input_direct_mode"/>
+            <ModeSub name="Channel2 mode" value="Input_indirect_mode"/>
+            <ModeSub name="Subordinate mode" value="Reset Mode"/>
+            <ModeSub name="Sub-mode input selection" value="SubModeInput_C1DF1"/>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="Overflow_Event" value="From_C"/>
+            <ParametersSub name="InputFilter_CH1" value="1"/>
+            <ParametersSub name="InputFilter_CH1_Frequency" value="30000000"/>
+            <ParametersSub name="InputPolarity_CH2" value="TMR_INPUT_FALLING_EDGE"/>
+        </Parameters>
+    </TMR15>
+    <TMR16>
+        <Mode>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DividerValue" value="119"/>
+        </Parameters>
+    </TMR16>
+    <USART1>
+        <Mode>
+            <ModeSub name="Mode" value="Asynchronous"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="RealBaudRate" value="115163"/>
+        </Parameters>
+    </USART1>
+    <DMA>
+        <TMR15_CH2>
+            <ParametersSub name="Instance" value="DMA1_Channel5"/>
+            <ParametersSub name="PeriphDataAlignment" value="DMA_PERIPHERAL_DATA_WIDTH_HALFWORD"/>
+            <ParametersSub name="MemDataAlignment" value="DMA_MEMORY_DATA_WIDTH_HALFWORD"/>
+            <ParametersSub name="Mode" value="TRUE"/>
+            <ParametersSub name="Priority" value="DMA_PRIORITY_VERY_HIGH"/>
+        </TMR15_CH2>
+    </DMA>
+    <NVIC>
+        <PriorityGroup>NVIC_PRIORITY_GROUP_2</PriorityGroup>
+        <SysTick_Handler>1;3;3;0;0</SysTick_Handler>
+        <FLASH_IRQHandler>0;0;0;0;0</FLASH_IRQHandler>
+        <CRM_IRQHandler>0;0;0;0;0</CRM_IRQHandler>
+        <DMA1_Channel5_4_IRQHandler>1;2;2;0;0</DMA1_Channel5_4_IRQHandler>
+        <ADC1_CMP_IRQHandler>0;0;0;0;0</ADC1_CMP_IRQHandler>
+        <TMR1_BRK_OVF_TRG_HALL_IRQHandler>0;0;0;0;0</TMR1_BRK_OVF_TRG_HALL_IRQHandler>
+        <TMR1_CH_IRQHandler>0;0;0;0;0</TMR1_CH_IRQHandler>
+        <TMR3_GLOBAL_IRQHandler>1;0;0;0;0</TMR3_GLOBAL_IRQHandler>
+        <TMR6_GLOBAL_IRQHandler>1;1;1;0;0</TMR6_GLOBAL_IRQHandler>
+        <TMR14_GLOBAL_IRQHandler>1;0;0;0;0</TMR14_GLOBAL_IRQHandler>
+        <TMR15_GLOBAL_IRQHandler>1;0;0;0;0</TMR15_GLOBAL_IRQHandler>
+        <TMR16_GLOBAL_IRQHandler>1;0;0;0;0</TMR16_GLOBAL_IRQHandler>
+        <USART1_IRQHandler>0;0;0;0;0</USART1_IRQHandler>
+    </NVIC>
+    <GPIO>
+        <Signal SignalName="CMP1_INM6" PinName="PA0">
+            <Parameters name="Label" value="UV"/>
+        </Signal>
+        <Signal SignalName="CMP1_INP1" PinName="PA1">
+            <Parameters name="Label" value="MV"/>
+        </Signal>
+        <Signal SignalName="ADC1_IN3" PinName="PA3">
+            <Parameters name="Label" value="ADC_V"/>
+        </Signal>
+        <Signal SignalName="GPIO_Analog" PinName="PA4">
+            <Parameters name="Label" value="VV"/>
+        </Signal>
+        <Signal SignalName="GPIO_Analog" PinName="PA5">
+            <Parameters name="Label" value="WV"/>
+        </Signal>
+        <Signal SignalName="GPIO_Output" PinName="PA7">
+            <Parameters name="Label" value="WL_P"/>
+        </Signal>
+        <Signal SignalName="GPIO_Output" PinName="PB0">
+            <Parameters name="Label" value="VL_P"/>
+        </Signal>
+        <Signal SignalName="GPIO_Output" PinName="PB1">
+            <Parameters name="Label" value="UL_P"/>
+        </Signal>
+        <Signal SignalName="TMR1_CH1" PinName="PA8">
+            <Parameters name="Label" value="WH_P"/>
+        </Signal>
+        <Signal SignalName="TMR1_CH2" PinName="PA9">
+            <Parameters name="Label" value="VH_P"/>
+        </Signal>
+        <Signal SignalName="TMR1_CH3" PinName="PA10">
+            <Parameters name="Label" value="UH_P"/>
+        </Signal>
+        <Signal SignalName="GPIO_Output" PinName="PA15">
+            <Parameters name="Label" value="LED"/>
+        </Signal>
+        <Signal SignalName="GPIO_Output" PinName="PB5">
+            <Parameters name="Label" value="LED_1"/>
+        </Signal>
+    </GPIO>
+    <ClockConfiguration>
+        <lextbypass>0</lextbypass>
+        <rtcsel>0</rtcsel>
+        <hext>8.000000</hext>
+        <hextbypass>0</hextbypass>
+        <pllhextdiv>0</pllhextdiv>
+        <pllrcs>1</pllrcs>
+        <pllmode>0</pllmode>
+        <pllmult>30</pllmult>
+        <pllms>1</pllms>
+        <pllns>120</pllns>
+        <pllfr>8</pllfr>
+        <sclkselect>1</sclkselect>
+        <ahbdiv>1</ahbdiv>
+        <apb1div>1</apb1div>
+        <apb2div>1</apb2div>
+        <hicktosclk>0</hicktosclk>
+        <clkout>0</clkout>
+        <clkoutdiv>1</clkoutdiv>
+        <clkoutpinselect>0</clkoutpinselect>
+        <adcswitch>1</adcswitch>
+        <adcdiv>6</adcdiv>
+        <systicsel>8</systicsel>
+    </ClockConfiguration>
+    <PINInfo>
+        <PinSub pinname="PA0" signalname="CMP1_INM6" signaltype="2"/>
+        <PinSub pinname="PA1" signalname="CMP1_INP1" signaltype="2"/>
+        <PinSub pinname="PA2" signalname="TMR15_CH1" signaltype="2"/>
+        <PinSub pinname="PA3" signalname="ADC1_IN3" signaltype="2"/>
+        <PinSub pinname="PA4" signalname="GPIO_Analog" signaltype="3"/>
+        <PinSub pinname="PA5" signalname="GPIO_Analog" signaltype="3"/>
+        <PinSub pinname="PA7" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PB0" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PB1" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PA8" signalname="TMR1_CH1" signaltype="2"/>
+        <PinSub pinname="PA9" signalname="TMR1_CH2" signaltype="2"/>
+        <PinSub pinname="PA10" signalname="TMR1_CH3" signaltype="2"/>
+        <PinSub pinname="PA13" signalname="DEBUG_SWDIO" signaltype="2"/>
+        <PinSub pinname="PA14" signalname="DEBUG_SWCLK" signaltype="2"/>
+        <PinSub pinname="PA15" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PB5" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PB6" signalname="USART1_TX" signaltype="2"/>
+        <PinSub pinname="PB7" signalname="USART1_RX" signaltype="2"/>
+    </PINInfo>
+    <ProjectInfomation>
+        <ProjectName>AT32F421G8U7_G8_ALL</ProjectName>
+        <ProjectLocation>F:/AT32OBJ/静态链接库/实验/AT32F421G8U7_G8_ALL - 副本_adc</ProjectLocation>
+        <ToolchainIDE>MDK_V5</ToolchainIDE>
+        <ARMCompiler>0</ARMCompiler>
+        <KeepUserCode>true</KeepUserCode>
+        <NotUsedPinAnalog>false</NotUsedPinAnalog>
+        <CodeSplitIP>true</CodeSplitIP>
+        <AddNecessaryFileFlag>true</AddNecessaryFileFlag>
+        <MinHeapSize>0x200</MinHeapSize>
+        <MinStackSize>0x400</MinStackSize>
+        <UseFirmware>true</UseFirmware>
+        <PackageVersion>V2.1.8</PackageVersion>
+    </ProjectInfomation>
+</Root>

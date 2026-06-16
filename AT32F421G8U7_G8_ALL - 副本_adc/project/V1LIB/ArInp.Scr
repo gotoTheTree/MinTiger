@@ -1,0 +1,6 @@
+--create ..\V1LIB\Servo_LIB_V1.lib
+..\v1lib\at32f421_int.o
+..\v1lib\pwm_in.o
+..\v1lib\servo.o
+..\v1lib\led_inf.o
+..\v1lib\flashdev.o

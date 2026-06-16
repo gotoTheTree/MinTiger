@@ -1,0 +1,157 @@
+Dependencies for Project 'AT32F421G8U7_G8_ALL', Target 'AT32F421G8U7_G8_ALL': (DO NOT MODIFY !)
+F (..\src\at32f421_int.c)(0x6A2D3596)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc-I.\RTE\_AT32F421G8U7_G8_ALL-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8-D__UVISION_VERSION="524" -DAT32F421G8U7 -DAT32F421G8U7 -DUSE_STDPERIPH_DRIVER -DAT_START_F421_V1-o ..\v1lib\at32f421_int.o --omf_browse ..\v1lib\at32f421_int.crf --depend ..\v1lib\at32f421_int.d)
+I (..\inc\at32f421_int.h)(0x6A2D35A0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f421.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x680E2008)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f421.h)(0x680E2008)
+I (..\..\libraries\drivers\inc\at32f421_def.h)(0x680E2009)
+I (..\inc\at32f421_conf.h)(0x6A267623)
+I (..\..\libraries\drivers\inc\at32f421_crm.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_cmp.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_tmr.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_gpio.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_usart.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_pwc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_adc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_dma.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_debug.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_flash.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_exint.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_misc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_scfg.h)(0x680E2009)
+I (..\inc\Servo.h)(0x6A298A18)
+I (..\inc\DefineFile.h)(0x6A2AC5CF)
+I (..\inc\wk_tmr.h)(0x6A267623)
+I (..\inc\at32f421_wk_config.h)(0x6A267623)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\inc\LED_INF.h)(0x697EFFCC)
+I (..\inc\wk_gpio.h)(0x6A267623)
+I (..\inc\FlashDev.h)(0x6A2262EA)
+I (..\inc\PWM_IN.h)(0x6A27F618)
+I (..\inc\wk_dma.h)(0x6A267623)
+F (..\src\PWM_IN.c)(0x6A2852B6)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc-I.\RTE\_AT32F421G8U7_G8_ALL-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8-D__UVISION_VERSION="524" -DAT32F421G8U7 -DAT32F421G8U7 -DUSE_STDPERIPH_DRIVER -DAT_START_F421_V1-o ..\v1lib\pwm_in.o --omf_browse ..\v1lib\pwm_in.crf --depend ..\v1lib\pwm_in.d)
+I (..\inc\PWM_IN.h)(0x6A27F618)
+I (..\..\libraries\cmsis\cm4\device_support\at32f421.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x680E2008)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f421.h)(0x680E2008)
+I (..\..\libraries\drivers\inc\at32f421_def.h)(0x680E2009)
+I (..\inc\at32f421_conf.h)(0x6A267623)
+I (..\..\libraries\drivers\inc\at32f421_crm.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_cmp.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_tmr.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_gpio.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_usart.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_pwc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_adc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_dma.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_debug.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_flash.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_exint.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_misc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_scfg.h)(0x680E2009)
+I (..\inc\DefineFile.h)(0x6A2AC5CF)
+I (..\inc\wk_tmr.h)(0x6A267623)
+I (..\inc\at32f421_wk_config.h)(0x6A267623)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\inc\wk_dma.h)(0x6A267623)
+F (..\src\Servo.c)(0x6A2D5106)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc-I.\RTE\_AT32F421G8U7_G8_ALL-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8-D__UVISION_VERSION="524" -DAT32F421G8U7 -DAT32F421G8U7 -DUSE_STDPERIPH_DRIVER -DAT_START_F421_V1-o ..\v1lib\servo.o --omf_browse ..\v1lib\servo.crf --depend ..\v1lib\servo.d)
+I (..\inc\Servo.h)(0x6A298A18)
+I (..\..\libraries\cmsis\cm4\device_support\at32f421.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x680E2008)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f421.h)(0x680E2008)
+I (..\..\libraries\drivers\inc\at32f421_def.h)(0x680E2009)
+I (..\inc\at32f421_conf.h)(0x6A267623)
+I (..\..\libraries\drivers\inc\at32f421_crm.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_cmp.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_tmr.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_gpio.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_usart.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_pwc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_adc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_dma.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_debug.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_flash.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_exint.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_misc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_scfg.h)(0x680E2009)
+I (..\inc\DefineFile.h)(0x6A2AC5CF)
+I (..\inc\wk_tmr.h)(0x6A267623)
+I (..\inc\at32f421_wk_config.h)(0x6A267623)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\inc\LED_INF.h)(0x697EFFCC)
+I (..\inc\wk_gpio.h)(0x6A267623)
+I (..\inc\FlashDev.h)(0x6A2262EA)
+I (..\inc\PWM_IN.h)(0x6A27F618)
+I (..\inc\wk_dma.h)(0x6A267623)
+F (..\src\LED_INF.c)(0x697EFFB7)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc-I.\RTE\_AT32F421G8U7_G8_ALL-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8-D__UVISION_VERSION="524" -DAT32F421G8U7 -DAT32F421G8U7 -DUSE_STDPERIPH_DRIVER -DAT_START_F421_V1-o ..\v1lib\led_inf.o --omf_browse ..\v1lib\led_inf.crf --depend ..\v1lib\led_inf.d)
+I (..\inc\LED_INF.h)(0x697EFFCC)
+I (..\..\libraries\cmsis\cm4\device_support\at32f421.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x680E2008)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f421.h)(0x680E2008)
+I (..\..\libraries\drivers\inc\at32f421_def.h)(0x680E2009)
+I (..\inc\at32f421_conf.h)(0x6A267623)
+I (..\..\libraries\drivers\inc\at32f421_crm.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_cmp.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_tmr.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_gpio.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_usart.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_pwc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_adc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_dma.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_debug.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_flash.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_exint.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_misc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_scfg.h)(0x680E2009)
+I (..\inc\wk_gpio.h)(0x6A267623)
+I (..\inc\at32f421_wk_config.h)(0x6A267623)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\src\FlashDev.c)(0x69B230B3)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc-I.\RTE\_AT32F421G8U7_G8_ALL-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-IF:\Keil_v5\ARM\PACK\ArteryTek\AT32F421_DFP\2.1.8-D__UVISION_VERSION="524" -DAT32F421G8U7 -DAT32F421G8U7 -DUSE_STDPERIPH_DRIVER -DAT_START_F421_V1-o ..\v1lib\flashdev.o --omf_browse ..\v1lib\flashdev.crf --depend ..\v1lib\flashdev.d)
+I (..\inc\FlashDev.h)(0x6A2262EA)
+I (..\..\libraries\cmsis\cm4\device_support\at32f421.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x680E2008)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x680E2008)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f421.h)(0x680E2008)
+I (..\..\libraries\drivers\inc\at32f421_def.h)(0x680E2009)
+I (..\inc\at32f421_conf.h)(0x6A267623)
+I (..\..\libraries\drivers\inc\at32f421_crm.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_cmp.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_tmr.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_gpio.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_usart.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_pwc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_adc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_dma.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_debug.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_flash.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_exint.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_misc.h)(0x680E2009)
+I (..\..\libraries\drivers\inc\at32f421_scfg.h)(0x680E2009)
+I (..\inc\LED_INF.h)(0x697EFFCC)
+I (..\inc\wk_gpio.h)(0x6A267623)
+I (..\inc\at32f421_wk_config.h)(0x6A267623)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
